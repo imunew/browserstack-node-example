@@ -1,0 +1,17 @@
+{
+  "name": "browserstack-node-example",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "browserstack-webdriver": "^2.41.1",
+    "coffee-script": "^1.9.3",
+    "mocha": "^2.2.5"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "e2e-test:example": "mocha --compilers coffee:coffee-script/register tests/browserstack-example.coffee"
+  },
+  "author": "",
+  "license": "ISC"
+}

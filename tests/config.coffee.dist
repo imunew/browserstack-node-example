@@ -1,0 +1,13 @@
+config = {}
+
+config.mocha = {
+  "timeout": 100000 # デフォルトが2000ミリ秒なので、必要に応じて長めに設定する
+}
+
+config.browserstack = {
+  "browserstack.user" : "{input your user}",
+  "browserstack.key" : "{input your key}",
+  "browserstack.debug" : "true"
+}
+
+module.exports = config
